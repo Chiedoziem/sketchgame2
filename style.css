@@ -1,0 +1,29 @@
+.button1{
+    background-color: yellow;
+    border-width: 0px;
+    border-radius: 20px;
+    width: 100px;
+    height: 45x;
+}
+.button2{
+    background-color: orange;
+    border-width: 0px;
+    border-radius: 20px;
+    width: 100px;
+    height: 45x;
+}
+body{
+    background-color: green;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 400px;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px rgb(200, 40, 2);}
+    to{box-shadow: 1px 1px 38px rgb(133, 69, 124);}
+}
